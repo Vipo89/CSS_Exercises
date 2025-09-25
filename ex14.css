@@ -1,0 +1,6 @@
+body {
+  /* Crea un recuadro con border 2px dashed, border-radius 12px y padding 16px.*/
+  border: dashed 2px;
+  border-radius: 12px;
+  padding: 16px;
+}
