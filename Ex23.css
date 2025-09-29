@@ -1,0 +1,11 @@
+.mediagrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid black;
+}
+
+@media (width: 768px) {
+  .mediagrid {
+    grid-template-columns: 1fr;
+  }
+}
