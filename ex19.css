@@ -1,0 +1,8 @@
+.ex19{
+border: 1px solid black;
+background-color: grey;
+display: flex;
+position: fixed;
+width: 100%;
+z-index: auto;
+}
