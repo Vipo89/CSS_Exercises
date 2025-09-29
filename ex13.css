@@ -1,6 +1,15 @@
 body {
+<<<<<<< HEAD
   background-image: url(gatitu.jpg); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+=======
+  background-image: url(gatitu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  
+>>>>>>> 2a20d4819586bfc898fb7f2fec53689cc6818479
 }
