@@ -1,0 +1,8 @@
+.hola_hola{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 2px solid white;
+    background: -webkit-linear-gradient(#fff,#000);
+    background: linear-gradient(#fff,#000);
+    background: -moz-linear-gradient(#fff,#000);
+}
