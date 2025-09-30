@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   margin-top: 0px;
 }
@@ -15,8 +14,8 @@ header {
   padding: 25px;
   color: white;
   background-color: #242424;
+   text-decoration: none;
 }
-
 .foto_intro {
   display: grid;
   grid-template-columns: 0.01fr 1fr;
@@ -27,6 +26,12 @@ header {
 }
 .htmlimg {
   width: 150px;
+}
+.links a{
+  text-decoration: none;
+}
+.links a:hover{
+  padding: 15px;
 }
 .links {
   width: 100%;
@@ -49,7 +54,6 @@ h1 {
   text-align: left;
   color: white;
 }
-
 h2 {
   background-color: #242424;
   display: flex;
@@ -73,10 +77,16 @@ h2 {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
+  justify-items: center;
+  padding: 10px;
 }
 input[type="text"] {
-  width: 150px;
+  width: 20%;
   border: 2px solid red;
+  /* Solución de chatGPT que funciona
+  display: block;
+  margin:0 auto;
+  */
 }
 .textp1{
   display: flex;
@@ -85,7 +95,6 @@ input[type="text"] {
 .footerp img {
   width: 10%;
 }
-
 .hugeSection {
   border: 3px solid grey;
   border-radius: 10px;
